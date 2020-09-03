@@ -1,4 +1,4 @@
 # webprogramming
 
 ## Third day
-We are learning about git
+We are learning about git & github
