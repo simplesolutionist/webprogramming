@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
-    Welcome to NewPaltz
+
   </div>
 </template>
 
