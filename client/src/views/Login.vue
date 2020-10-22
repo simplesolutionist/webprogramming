@@ -45,7 +45,7 @@ export default {
             session.user = {
                 name: 'Ayman Ali',
                 handle: 'simplesolutionist',
-                profile: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/120552651_10102367831029710_8523278423201553541_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=Jnr3FRfM4FIAX8F5rC9&_nc_ht=scontent-lga3-1.xx&oh=14a477b3f03186158eccf30fe3a03bda&oe=5FA552C2'
+                profile: 'https://pbs.twimg.com/media/EkzY-RHWAAUU-qr?format=jpg&name=medium'
             }
             session.addNotification('Yay! You logged in', 'success')
             this.$router.push('feed')
@@ -57,3 +57,4 @@ export default {
 <style>
     
 </style>
+
