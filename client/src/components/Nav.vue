@@ -40,32 +40,37 @@
           </a>
         </div>
       </div>
-    </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link"> Admin </a>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button">
-            <strong>Sign up</strong>
-          </a>
-            <router-link to="/login"  class="button is-light" >
-                Log in
-            </router-link>
+        <div class="navbar-dropdown">
+          <router-link to="/users"  class="navbar-item" >Users</router-link>
         </div>
       </div>
     </div>
-  </div>
+
+ </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <LoginBadge />
+      </div>
+    </div>
 </nav>
 
 
 </template>
 
 <script>
+import LoginBadge from "@/components/LoginBadge";
 export default {
   data: ()=> ({
       isActive: false
   }),
   methods: {
+  },
+  components: {
+    LoginBadge
   }
 }
 </script>
